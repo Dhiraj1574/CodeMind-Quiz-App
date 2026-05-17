@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/quiz_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="26dp"
+        android:background="@drawable/question_card">
+
+        <TextView
+            android:id="@+id/tvResultIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏆"
+            android:textSize="64sp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvResultTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz Master"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category: Android"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score: 0/10"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Percentage: 0%"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excellent work! Your coding knowledge is impressive."
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:layout_marginBottom="26dp" />
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Try Another Quiz"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
