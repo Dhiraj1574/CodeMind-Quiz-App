@@ -34,11 +34,6 @@ CodeMind is an Android quiz application built using Kotlin and Jetpack Compose. 
 <b>Result Screen</b><br><br>
 <img src="output/output-result.png" width="220" alt="Result Screen">
 </td>
-
-<td align="center">
-<b>Demo Video</b><br><br>
-🎥 Output demonstration video included in repository.
-</td>
 </tr>
 </table>
 
